@@ -1,0 +1,306 @@
+{
+ "n": 17,
+ "agreement": {
+  "total": {
+   "n": 17,
+   "exact": 0.353,
+   "within_1": 0.529,
+   "mae": 1.235
+  },
+  "basis_match": {
+   "n": 17,
+   "exact": 0.882,
+   "within_1": 1.0,
+   "mae": 0.118
+  },
+  "numeric_ok": {
+   "n": 17,
+   "exact": 0.882,
+   "within_1": 0.941,
+   "mae": 0.176
+  },
+  "no_extra_claim": {
+   "n": 17,
+   "exact": 0.412,
+   "within_1": 0.529,
+   "mae": 1.059
+  }
+ },
+ "judge_minus_human_avg": -1.235,
+ "rows": [
+  {
+   "id": "S01",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 4,
+   "human_total": 6,
+   "reason": "제31조 취지를 직접 반영한 인용으로 근거는 맞지만, 제31조 정의를 넘어 약정결제비율 10~100%, 최소결제비율 10% 이상 등 다른 조항 내용을 덧붙여 근거 밖 주장으로 판단됨."
+  },
+  {
+   "id": "S02",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 4,
+   "human_total": 6,
+   "reason": "제34조 근거 청크를 인용해 정답 요지와 일치하나, 다른 조항을 덧붙여 약관 외 추가 설명을 했다."
+  },
+  {
+   "id": "S03",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 0,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 1,
+    "numeric_ok": 0,
+    "no_extra_claim": 2
+   },
+   "judge_total": 2,
+   "human_total": 3,
+   "reason": "제7조 제2항의 정답은 7영업일 전인데 제출 답변은 3영업일 전으로 수치가 틀렸고, 제8조 관련 내용까지 섞어 문서 밖 주장도 포함했습니다."
+  },
+  {
+   "id": "S06",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 4,
+   "human_total": 6,
+   "reason": "제7조 근거 청크를 인용해 15일 이내, 30일 초과 시 불가라는 정답 요지를 맞췄으나, 진단계약·보험기간 1년 미만·전문보험계약자 예외는 질문 범위를 넘어선 추가 주장입니다."
+  },
+  {
+   "id": "S07",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 0,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 1
+   },
+   "judge_total": 2,
+   "human_total": 5,
+   "reason": "정답 요지와 달리 ‘1,000만원 기준 1년 미만 지급금액이 1,000만원’이라고 적어 수치가 틀렸고, 표/기준액 등 근거 밖 설명이 섞였습니다."
+  },
+  {
+   "id": "S08",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 4,
+   "human_total": 6,
+   "reason": "제19조 제1항 근거를 인용해 핵심 요지는 맞지만, 보험회사 임직원 준용 등 질문 범위를 벗어난 문장을 추가로 진술했다."
+  },
+  {
+   "id": "S09",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 6,
+   "human_total": 6,
+   "reason": "gold 문서 청크를 직접 인용했고, 산업기능요원이 가입대상이 아님을 문서 범위 내에서만 답변했다."
+  },
+  {
+   "id": "S10",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 4,
+   "human_total": 6,
+   "reason": "정답 근거 청크를 인용했고 값·단위도 맞지만, 한 은행 월 저축한도 30만원 등 질문 범위를 벗어난 추가 진술이 있습니다."
+  },
+  {
+   "id": "S11",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 4,
+   "human_total": 6,
+   "reason": "계약기간·가입금액은 정답과 일치하며 근거 청크를 인용했으나, 저축한도/최대 납입액 등 질문에 없는 추가 사실을 진술했다."
+  },
+  {
+   "id": "S12",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 6,
+   "human_total": 6,
+   "reason": "100만원 이상으로 정답과 일치하며, gold 근거가 포함된 청크(kakao_deposit_2026_txt#본문#5, kakao_deposit_terms_2024#제4조#1)를 인용했다. 수치와 기준일을 함께 표기했고, 인용 범위 밖의 주장도 없다."
+  },
+  {
+   "id": "S13",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 6,
+   "human_total": 6,
+   "reason": "정답 요지와 동일하게 제3조 제1항의 가입대상(만 14세 이상의 실명의 개인)을 직접 답했으며, 수치·조건도 정확하고 근거 밖 주장도 없습니다."
+  },
+  {
+   "id": "S14",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 0,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 0,
+    "no_extra_claim": 0
+   },
+   "judge_total": 2,
+   "human_total": 2,
+   "reason": "정답은 ‘만기까지 1개월 미만’인데 제출 답변은 이를 확인하지 못했다고 했고, 다른 기준(3년 경과)과 일반론을 추가로 진술해 정답과 불일치하며 근거 밖 주장도 섞였습니다."
+  },
+  {
+   "id": "S20",
+   "judge": {
+    "basis_match": 1,
+    "numeric_ok": 0,
+    "no_extra_claim": 2
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 0,
+    "no_extra_claim": 2
+   },
+   "judge_total": 3,
+   "human_total": 4,
+   "reason": "정답 근거 청크와 일치하나(해당 표를 인용) 수치가 틀렸고, 답변은 표 범위 내 표현이라 추가 주장도 없음."
+  },
+  {
+   "id": "S22",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 0,
+    "no_extra_claim": 2
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 0,
+    "no_extra_claim": 2
+   },
+   "judge_total": 4,
+   "human_total": 4,
+   "reason": "기준일은 맞지만 수수료율 범위가 정답(연 3.90~18.90%)과 다릅니다. 제출 답변은 인용 청크 내에서만 주장했습니다."
+  },
+  {
+   "id": "S23",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 1
+   },
+   "judge_total": 4,
+   "human_total": 5,
+   "reason": "정답 요지인 약정이율×55%를 정확히 인용했고, 세전·연이율 표기도 있어 수치 표기도 맞습니다. 다만 회전시점/가입조건에 따라 달라질 수 있다는 문장은 제시된 인용 범위를 벗어난 일반론으로 볼 수 있습니다."
+  },
+  {
+   "id": "S24",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 1,
+    "no_extra_claim": 0
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 3,
+   "human_total": 6,
+   "reason": "아멕스 1.4%라는 값은 맞지만 해외이용 수수료의 별도 0.25%와 기준을 함께 표기하지 않았고, 제출 답변이 가맹점이용/현금서비스 항목으로 범위를 넓혀 문서 밖 일반론이 섞였습니다."
+  },
+  {
+   "id": "S25",
+   "judge": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "human": {
+    "basis_match": 2,
+    "numeric_ok": 2,
+    "no_extra_claim": 2
+   },
+   "judge_total": 6,
+   "human_total": 6,
+   "reason": "정답 요지와 동일한 수치(연 8%, 최고 연 17%)를 제시했고, 근거 청크를 인용했으며 추가 사실 주장도 근거 범위 내입니다."
+  }
+ ],
+ "generated_at": "2026-10-10T02:00:31+00:00",
+ "llm": "openai:gpt-5.4-mini"
+}

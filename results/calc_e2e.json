@@ -1,0 +1,328 @@
+{
+ "n": 15,
+ "matched": 2,
+ "accuracy": 0.1333,
+ "by_how": {
+  "계산 안 함": 13,
+  "계산 안 함이 정답": 2
+ },
+ "rows": [
+  {
+   "id": "C01",
+   "family": "savings_early_termination",
+   "form": "B",
+   "expected": {
+    "value": 0.875,
+    "unit": "%"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 6516,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C02",
+   "family": "savings_early_termination",
+   "form": "B",
+   "expected": {
+    "value": 0.1,
+    "unit": "%"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2181,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C03",
+   "family": "savings_early_termination",
+   "form": "C",
+   "expected": {
+    "value": 0.5,
+    "unit": "%"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2317,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C04",
+   "family": "savings_interest_daily",
+   "form": "B",
+   "expected": {
+    "value": 97890,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2413,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C05",
+   "family": "deposit_interest",
+   "form": "compound",
+   "expected": {
+    "value": 304159,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2918,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C06",
+   "family": "loan_prepayment_fee",
+   "form": "days_ratio",
+   "expected": {
+    "value": 466666,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2980,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C07",
+   "family": "loan_delinquency_interest",
+   "form": "monthly_example",
+   "expected": {
+    "value": 803333,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2439,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C08",
+   "family": "card_overseas_charge",
+   "form": "three_term",
+   "expected": {
+    "value": 1417500,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2463,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C09",
+   "family": "loan_prepayment_fee",
+   "form": "ratio_with_waiver_option",
+   "expected": {
+    "value": 200000,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2746,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C10",
+   "family": "range_answer",
+   "form": "disclosure_range",
+   "expected": {
+    "value": "연 5.60~19.95% (신용점수 구간별 범위)",
+    "unit": "range"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": true,
+   "how": "계산 안 함이 정답",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2044,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C11",
+   "family": "card_delinquency_rate",
+   "form": "cap",
+   "expected": {
+    "value": 20.0,
+    "unit": "%"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2178,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C12",
+   "family": "silson_copay",
+   "form": "outpatient_deductible",
+   "expected": {
+    "value": 32000,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2716,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C13",
+   "family": "silson_copay",
+   "form": "noncovered",
+   "expected": {
+    "value": 105000,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 3133,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C14",
+   "family": "cancer_benefit",
+   "form": "reduction_and_waiver",
+   "expected": {
+    "value": 15000000,
+    "unit": "원"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": false,
+   "how": "계산 안 함",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2683,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  },
+  {
+   "id": "C15",
+   "family": "abstain",
+   "form": "surrender_value",
+   "expected": {
+    "value": null,
+    "unit": "abstain"
+   },
+   "got": null,
+   "unit": null,
+   "tool": null,
+   "abstain_reason": null,
+   "matched": true,
+   "how": "계산 안 함이 정답",
+   "grade": null,
+   "retry_count": 0,
+   "answered": false,
+   "latency_ms": 2350,
+   "answer": "",
+   "error": "ValueError: Collection finrag not found"
+  }
+ ],
+ "generated_at": "2026-10-10T02:20:57+00:00",
+ "llm": "openai:gpt-5.4-mini"
+}

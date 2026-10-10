@@ -160,14 +160,56 @@ def calibrate(calib: list[dict], verbose: bool = False) -> dict:
     return {"n": len(rows), "agreement": agree, "judge_minus_human_avg": bias, "rows": rows}
 
 
+
 def agreement(judge_scores: list[int], human_labels: list[int]) -> dict:
-    """judge 와 사람 라벨의 일치도. 완전 일치와 ±1 이내를 나눠 본다.
+    """judge와 사람 라벨의 일치도를 계산한다.
 
-    반환: {"n", "exact", "within_1", "mae"}. 둘의 길이가 다르면 짧은 쪽까지만 본다.
-    둘 다 비어 있으면 {"n": 0}. exact · within_1 은 비율(소수 3자리), mae 는 평균 절대 오차(소수 3자리).
+    반환:
+        {
+            "n": 비교한 문항 수,
+            "exact": 완전 일치율,
+            "within_1": ±1점 이내 일치율,
+            "mae": 평균 절대 오차
+        }
 
-    [6회차 실습 2] 이 함수를 채우세요. 테스트는 tests/test_judge.py 입니다.
-    왜 셋인가: 완전 일치만 보면 6점 척도에서 한 점 차이도 불일치가 되어 judge 가 쓸모없어 보이고,
-    ±1 만 보면 늘 후하게 주는 judge 를 못 잡는다. MAE 가 그 치우침의 크기다.
+    두 목록의 길이가 다르면 짧은 쪽까지만 비교한다.
+    평가할 문항이 없으면 {"n": 0}을 반환한다.
+    비율 및 MAE는 소수점 셋째 자리까지 반올림한다.
     """
-    raise NotImplementedError("6회차 실습 2: judge.agreement 를 채우세요")
+
+    # 1. 실제 비교할 문항 수
+    n = min(len(judge_scores), len(human_labels))
+
+    # 2. 빈 데이터 처리
+    if n == 0:
+        return {"n": 0}
+
+    # 3. 두 평가자의 점수를 비교
+    pairs = list(zip(judge_scores, human_labels))
+
+    # 4. 완전 일치율
+    exact = sum(
+        judge == human
+        for judge, human in pairs
+    ) / n
+
+    # 5. ±1점 이내 일치율
+    within_1 = sum(
+        abs(judge - human) <= 1
+        for judge, human in pairs
+    ) / n
+
+    # 6. 평균 절대 오차(MAE)
+    mae = sum(
+        abs(judge - human)
+        for judge, human in pairs
+    ) / n
+
+    # 7. 최종 결과 반환
+    return {
+        "n": n,
+        "exact": round(exact, 3),
+        "within_1": round(within_1, 3),
+        "mae": round(mae, 3),
+    }
+

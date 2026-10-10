@@ -1,0 +1,53 @@
+{
+ "measured": {
+  "tokens_in_avg": 11061,
+  "tokens_out_avg": 517,
+  "by_model": {
+   "gpt-5.4-nano-2026-03-17": {
+    "input_tokens": 247749,
+    "output_tokens": 12193,
+    "calls": 40,
+    "input_avg": 6194,
+    "output_avg": 305
+   },
+   "gpt-5.4-mini-2026-03-17": {
+    "input_tokens": 194689,
+    "output_tokens": 8485,
+    "calls": 37,
+    "input_avg": 4867,
+    "output_avg": 212
+   }
+  },
+  "cost_usd_per_q": 0.005595,
+  "cost_krw_per_q": 7.83,
+  "retry_share": 0.225,
+  "latency_ms_avg": 10035.0,
+  "hybrid_latency_ms_avg": 1342.0,
+  "prices_as_of": "2026-10-08"
+ },
+ "assumptions": {
+  "daily": 500,
+  "days": 22,
+  "usd_krw": 1400.0,
+  "server_month": 300000,
+  "gpu_capex": 25000000,
+  "gpu_opex_year": 6000000,
+  "minutes_saved": 3.0,
+  "hourly_wage": 25000
+ },
+ "monthly": {
+  "questions": 11000,
+  "api_krw": 86163,
+  "infra_krw": 300000,
+  "total_krw": 386163,
+  "saved_krw": 13750000,
+  "net_krw": 13363837
+ },
+ "three_year": {
+  "api_plan_krw": 13901868,
+  "gpu_plan_krw": 53800000,
+  "payback_months_gpu": 1.9,
+  "breakeven_daily_questions": 1935
+ },
+ "generated_at": "2026-10-10T02:32:26+00:00"
+}

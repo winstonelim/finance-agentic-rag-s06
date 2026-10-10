@@ -1,0 +1,82 @@
+{
+ "n_expected": 13,
+ "exact_match": 8,
+ "exact_rate": 0.6154,
+ "n_no_expected": 27,
+ "n_missing_row": 0,
+ "by_field": {
+  "doc_type": {
+   "tp": 9,
+   "wrong": 1,
+   "fn": 1,
+   "n": 11,
+   "precision": 0.9,
+   "recall": 0.818
+  },
+  "issuer": {
+   "tp": 6,
+   "wrong": 0,
+   "fn": 0,
+   "n": 6,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "product": {
+   "tp": 2,
+   "wrong": 0,
+   "fn": 0,
+   "n": 2,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "generation": {
+   "tp": 0,
+   "wrong": 0,
+   "fn": 1,
+   "n": 1,
+   "precision": null,
+   "recall": 0.0
+  },
+  "effective_on": {
+   "tp": 1,
+   "wrong": 1,
+   "fn": 1,
+   "n": 3,
+   "precision": 0.5,
+   "recall": 0.333
+  }
+ },
+ "mismatches": [
+  {
+   "id": "S03",
+   "field": "effective_on",
+   "expected": "latest",
+   "got": null
+  },
+  {
+   "id": "S19",
+   "field": "effective_on",
+   "expected": "2019-07-22",
+   "got": "2019-07-31"
+  },
+  {
+   "id": "S28",
+   "field": "doc_type",
+   "expected": "분쟁조정사례",
+   "got": "null"
+  },
+  {
+   "id": "S29",
+   "field": "doc_type",
+   "expected": "분쟁조정사례",
+   "got": null
+  },
+  {
+   "id": "S35",
+   "field": "generation",
+   "expected": "5세대",
+   "got": null
+  }
+ ],
+ "source": "results/agentic.json"
+}

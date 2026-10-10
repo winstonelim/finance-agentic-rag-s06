@@ -1,0 +1,230 @@
+{
+ "n": 20,
+ "n_scored": 18,
+ "n_refused": 2,
+ "mean_total": 4.056,
+ "mean_by_item": {
+  "basis_match": 1.833,
+  "numeric_ok": 1.389,
+  "no_extra_claim": 0.833
+ },
+ "full_marks": 4,
+ "by_type": {
+  "상품명조건형": {
+   "n": 6,
+   "mean_total": 5.0,
+   "basis_match": 1.833,
+   "numeric_ok": 1.667,
+   "no_extra_claim": 1.5
+  },
+  "조항번호형": {
+   "n": 7,
+   "mean_total": 3.286,
+   "basis_match": 1.714,
+   "numeric_ok": 1.429,
+   "no_extra_claim": 0.143
+  },
+  "표수치형": {
+   "n": 5,
+   "mean_total": 4.0,
+   "basis_match": 2.0,
+   "numeric_ok": 1.0,
+   "no_extra_claim": 1.0
+  }
+ },
+ "rows": [
+  {
+   "id": "S01",
+   "type": "조항번호형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 0,
+   "total": 4,
+   "reason": "제31조·제35조 근거 청크를 인용해 정의를 맞췄지만, 약정결제비율 10~100% 등 제31조 밖의 조항 내용을 함께 진술해 근거 밖 주장에 해당합니다."
+  },
+  {
+   "id": "S02",
+   "type": "조항번호형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 1,
+   "total": 5,
+   "reason": "제34조 근거를 직접 인용해 산출방법서 기준임을 맞게 답했으나, 다른 조문을 덧붙여 일반론처럼 설명한 부분은 근거 범위를 약간 벗어납니다."
+  },
+  {
+   "id": "S03",
+   "type": "조항번호형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 0,
+   "no_extra_claim": 0,
+   "total": 2,
+   "reason": "정답은 7영업일 전 및 서면 통지인데, 제출 답변은 3영업일 전으로 달라 수치가 틀렸고, 정답 근거와 일치하는 제7조 제2항 인용을 바탕으로 하지 않았다. 또한 ‘실제 통지가 도달한 날부터 3영업일 경과’는 근거 밖 주장이다."
+  },
+  {
+   "id": "S04",
+   "type": "조항번호형",
+   "answered": false
+  },
+  {
+   "id": "S05",
+   "type": "조항번호형",
+   "answered": true,
+   "basis_match": 0,
+   "numeric_ok": 0,
+   "no_extra_claim": 0,
+   "total": 0,
+   "reason": "정답 근거(fss_credit_terms_2024_pdf#제4조의2#1)를 인용하지 않았고, 기한을 14일로 제시하지 않아 수치도 틀렸으며, 근거 밖으로 ‘확인할 수 없다’는 단정적 주장도 포함했습니다."
+  },
+  {
+   "id": "S06",
+   "type": "조항번호형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 0,
+   "total": 4,
+   "reason": "제7조·제22조 근거를 인용해 15일/30일 요건은 맞지만, 진단계약 등 추가 철회불가 사유를 답변에 포함해 정답 범위를 벗어났다."
+  },
+  {
+   "id": "S07",
+   "type": "조항번호형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 0,
+   "total": 4,
+   "reason": "제6조의 1년 미만 50% 및 최초 1회 한정과 일치하나, 별표1·계약일 기준 등 답변에 없는 조항/일반 설명이 섞여 근거 밖 진술이 있다."
+  },
+  {
+   "id": "S08",
+   "type": "조항번호형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 0,
+   "total": 4,
+   "reason": "제19조 제1항 근거를 인용했으나, 금융상품자문업자·특정 사항만 설명 등 제19조 제1항 밖의 내용이 섞여 있어 근거 밖 주장 없음 기준을 충족하지 못함."
+  },
+  {
+   "id": "S09",
+   "type": "상품명조건형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 2,
+   "total": 6,
+   "reason": "정답 근거 청크를 인용했고, 가입대상/비대상 판단이 근거 범위 내에서만 제시됨."
+  },
+  {
+   "id": "S10",
+   "type": "상품명조건형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 2,
+   "total": 6,
+   "reason": "계약기간과 은행 합산 월 저축한도 모두 gold 근거 청크와 일치하고, 수치·단위·범위가 함께 제시되었으며, 추가 주장도 근거 범위 내입니다."
+  },
+  {
+   "id": "S11",
+   "type": "상품명조건형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 1,
+   "total": 5,
+   "reason": "계약기간과 가입금액은 정답과 일치하며, 인용 청크도 gold 근거를 포함함. 다만 '실제 가입 시점과 운영 방식은 별도 확인 필요'는 문서 밖의 일반적 주의로 보인다."
+  },
+  {
+   "id": "S12",
+   "type": "상품명조건형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 2,
+   "total": 6,
+   "reason": "정답 요지인 최소 가입금액 100만원 이상과 일치하며, gold 근거가 포함된 청크를 인용했다. 금액·단위·기준일을 함께 제시해 수치 표기도 적절하다. 추가로 문서 밖 사실은 보이지 않는다."
+  },
+  {
+   "id": "S13",
+   "type": "상품명조건형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 2,
+   "total": 6,
+   "reason": "정답 근거인 제3조 1항과 일치하는 내용을 인용했고, 수치·단위 없이도 충분한 항목이 아니라 문구 자체가 정확합니다. 추가 주장도 없습니다."
+  },
+  {
+   "id": "S14",
+   "type": "상품명조건형",
+   "answered": true,
+   "basis_match": 1,
+   "numeric_ok": 0,
+   "no_extra_claim": 0,
+   "total": 1,
+   "reason": "정답은 '만기까지 1개월 미만'이지만 답변은 '최초 대출취급일로부터 3년 경과'만 제시해 조항이 다르고, 1개월 미만이라는 수치·기준도 틀렸으며, 동일 은행/유사 계약에 대한 추가 설명은 질문 범위를 벗어난 근거 밖 주장이다."
+  },
+  {
+   "id": "S20",
+   "type": "표수치형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 0,
+   "no_extra_claim": 2,
+   "total": 4,
+   "reason": "gold 문서의 인지세 표를 인용했으나 제시한 금액(35만원, 17만5천원)이 정답과 달라 수치가 틀림."
+  },
+  {
+   "id": "S21",
+   "type": "표수치형",
+   "answered": false
+  },
+  {
+   "id": "S22",
+   "type": "표수치형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 0,
+   "no_extra_claim": 0,
+   "total": 2,
+   "reason": "기준일은 맞지만 제시한 수수료율 5.90~19.95%가 정답(3.90~18.90%)과 달라 수치가 틀렸고, 근거 밖의 불확실한 설명도 포함됨."
+  },
+  {
+   "id": "S23",
+   "type": "표수치형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 1,
+   "total": 5,
+   "reason": "정답 근거 청크를 인용해 약정이율×55%를 맞게 제시했다. 다만 세전·연이율 등 일반 설명이 섞였고, 근거 밖의 보충 진술이 있어 no_extra_claim은 1이다."
+  },
+  {
+   "id": "S24",
+   "type": "표수치형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 1,
+   "no_extra_claim": 1,
+   "total": 4,
+   "reason": "아멕스 1.4%는 근거 청크에 맞지만 해외서비스 수수료 0.25% 별도와 같은 정답 요지의 수치·기준일·절사 규칙 표기가 없고, 표 항목 설명은 인용 범위 밖 일반 설명에 가깝습니다."
+  },
+  {
+   "id": "S25",
+   "type": "표수치형",
+   "answered": true,
+   "basis_match": 2,
+   "numeric_ok": 2,
+   "no_extra_claim": 1,
+   "total": 5,
+   "reason": "정답 요지와 수치·단위는 일치하고, gold 청크(본문#6)를 인용했으나 '대출이자율 + 연체기간별 연체 가산이자율' 등 문서 범위를 넘어선 일반 설명이 섞여 있음."
+  }
+ ],
+ "generated_at": "2026-10-10T02:19:43+00:00",
+ "llm": "openai:gpt-5.4-mini",
+ "source": "results/agentic.json"
+}
